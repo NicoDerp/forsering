@@ -1,3 +1,6 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
 x1 = -100
 x2 = 100
 n = 100
@@ -21,3 +24,11 @@ while n != 0:
 	n -= 1
 
 print(f"f(x) = 0\nx = {midt_x:.4f}")
+
+plot_width = 50
+X = np.linspace(midt_x - plot_width/2, midt_x + plot_width/2, 100)
+Y = f(X)
+
+plt.plot(X, Y)
+plt.grid()
+plt.show()
