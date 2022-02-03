@@ -1,9 +1,9 @@
-x1 = -10
-x2 = 10
+x1 = -100
+x2 = 100
 n = 100
 
 def f(x):
-	return 3**x - x - 3
+	return 1.05 ** x - 12
 
 while n != 0:
 	y1 = f(x1)
@@ -20,4 +20,4 @@ while n != 0:
 
 	n -= 1
 
-print(f"f(x) = 0\nx = ({midt_x, midt_y})")
+print(f"f(x) = 0\nx = {midt_x:.4f}")
