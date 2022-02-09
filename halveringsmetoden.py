@@ -24,7 +24,7 @@ while n != 0:
 	n -= 1
 
 print(f"f(x) = 0\nx = {midt_x:.6f}")
-print(f"Løsning: x = {(a+b)/2:0.3f}")
+#print(f"Løsning: x = {(a+b)/2:0.3f}")
 
 plot_width = 8
 X = np.linspace(midt_x - plot_width/2, midt_x + plot_width/2, 100)
