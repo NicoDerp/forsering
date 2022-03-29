@@ -1,0 +1,4 @@
+tan(v) = motstående / hosliggende
+sin(v) = motstående / hypotenus
+cos(v) = hosliggende / hypotenus
+
